@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02AD28B071CA0CFCD139E1BF /* Pods_NotraMuse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5487C89400304DBC9AF1AA /* Pods_NotraMuse.framework */; };
+		038386112923F8300017B5A5 /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038386102923F8300017B5A5 /* ArtistViewController.swift */; };
+		03CB29A82923F2C30080FFF3 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CB29A72923F2C30080FFF3 /* TrackViewController.swift */; };
+		34E7F114BA62D7999DE4B3C7 /* Pods_NotraMuseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED52763646B232EF26035D49 /* Pods_NotraMuseTests.framework */; };
+		520C0A842922D692004EA851 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C0A832922D692004EA851 /* AppDelegate.swift */; };
+		520C0A862922D692004EA851 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C0A852922D692004EA851 /* SceneDelegate.swift */; };
+		520C0A882922D692004EA851 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C0A872922D692004EA851 /* ViewController.swift */; };
+		520C0A8B2922D692004EA851 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520C0A892922D692004EA851 /* Main.storyboard */; };
+		520C0A8D2922D693004EA851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520C0A8C2922D693004EA851 /* Assets.xcassets */; };
+		520C0A902922D693004EA851 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520C0A8E2922D693004EA851 /* LaunchScreen.storyboard */; };
+		520C0A9B2922D693004EA851 /* NotraMuseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C0A9A2922D693004EA851 /* NotraMuseTests.swift */; };
+		520C0AA52922D693004EA851 /* NotraMuseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C0AA42922D693004EA851 /* NotraMuseUITests.swift */; };
+		520C0AA72922D693004EA851 /* NotraMuseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C0AA62922D693004EA851 /* NotraMuseUITestsLaunchTests.swift */; };
+		520C0AB52922DB2E004EA851 /* Orbitron-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 520C0AB42922DB2E004EA851 /* Orbitron-Medium.ttf */; };
+		520C0AB62922DB2E004EA851 /* Orbitron-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 520C0AB42922DB2E004EA851 /* Orbitron-Medium.ttf */; };
+		520C0AB72922DB2E004EA851 /* Orbitron-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 520C0AB42922DB2E004EA851 /* Orbitron-Medium.ttf */; };
+		520C0AB92922DB46004EA851 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C0AB82922DB46004EA851 /* LoginViewController.swift */; };
+		524958A929235267003F8AC4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524958A829235267003F8AC4 /* HomeViewController.swift */; };
+		524958AB2923531F003F8AC4 /* HomeSongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524958AA2923531F003F8AC4 /* HomeSongTableViewCell.swift */; };
+		5273AD19292CB7DA00183301 /* FullAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273AD18292CB7DA00183301 /* FullAlbumViewController.swift */; };
+		5273AD20292CBC5500183301 /* FullAlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273AD1F292CBC5500183301 /* FullAlbumTableViewCell.swift */; };
+		5273AD22292CBC5900183301 /* SonginAlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273AD21292CBC5900183301 /* SonginAlbumTableViewCell.swift */; };
+		5273AD27292D32CE00183301 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273AD26292D32CE00183301 /* PlaylistViewController.swift */; };
+		5273AD29292D335900183301 /* PlaylistsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273AD28292D335900183301 /* PlaylistsTableViewCell.swift */; };
+		5273AD2B292D38DF00183301 /* SinglePlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273AD2A292D38DF00183301 /* SinglePlaylistViewController.swift */; };
+		5273AD2D292D3A2100183301 /* SinglePlaylistInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273AD2C292D3A2100183301 /* SinglePlaylistInfoTableViewCell.swift */; };
+		5273AD2F292D3A3400183301 /* SinglePlaylistSongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273AD2E292D3A3400183301 /* SinglePlaylistSongTableViewCell.swift */; };
+		52897C142935A7FB008FFC26 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52897C132935A7FB008FFC26 /* PlayerViewController.swift */; };
+		52897C162935DA8B008FFC26 /* Test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52897C152935DA8A008FFC26 /* Test.mp3 */; };
+		92044B5ADD4E9B8B3AF7A977 /* Pods_NotraMuse_NotraMuseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED119C4B44DD02E6E0D6C901 /* Pods_NotraMuse_NotraMuseUITests.framework */; };
+		A9EE7F24292EBD9900BF9622 /* DeezerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE7F23292EBD9900BF9622 /* DeezerAPI.swift */; };
+		A9EE7F26292EBDBA00BF9622 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE7F25292EBDBA00BF9622 /* Album.swift */; };
+		A9EE7F28292EBDD800BF9622 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE7F27292EBDD800BF9622 /* Artist.swift */; };
+		A9EE7F2A292EBDE900BF9622 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE7F29292EBDE900BF9622 /* Song.swift */; };
+		A9EE7F2C292EBDFD00BF9622 /* ChartResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE7F2B292EBDFD00BF9622 /* ChartResult.swift */; };
+		C7665BAC292E70300064BF32 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7665BAB292E70300064BF32 /* ItemCollectionViewCell.swift */; };
+		C7665BAE292E78CD0064BF32 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7665BAD292E78CD0064BF32 /* ProfileViewController.swift */; };
+		E253832E29299B6D007AC30B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253832D29299B6D007AC30B /* SearchViewController.swift */; };
+		E25383302929A128007AC30B /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253832F2929A128007AC30B /* SearchTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		520C0A972922D693004EA851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520C0A782922D692004EA851 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520C0A7F2922D692004EA851;
+			remoteInfo = NotraMuse;
+		};
+		520C0AA12922D693004EA851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520C0A782922D692004EA851 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520C0A7F2922D692004EA851;
+			remoteInfo = NotraMuse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038386102923F8300017B5A5 /* ArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
+		03CB29A72923F2C30080FFF3 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		1B3780E77FC3D86FF6BDAAB8 /* Pods-NotraMuseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotraMuseTests.release.xcconfig"; path = "Target Support Files/Pods-NotraMuseTests/Pods-NotraMuseTests.release.xcconfig"; sourceTree = "<group>"; };
+		22F671FD81E80434A3B27810 /* Pods-NotraMuse-NotraMuseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotraMuse-NotraMuseUITests.release.xcconfig"; path = "Target Support Files/Pods-NotraMuse-NotraMuseUITests/Pods-NotraMuse-NotraMuseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		520C0A802922D692004EA851 /* NotraMuse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotraMuse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		520C0A832922D692004EA851 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		520C0A852922D692004EA851 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		520C0A872922D692004EA851 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		520C0A8A2922D692004EA851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		520C0A8C2922D693004EA851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		520C0A8F2922D693004EA851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		520C0A912922D693004EA851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520C0A962922D693004EA851 /* NotraMuseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotraMuseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		520C0A9A2922D693004EA851 /* NotraMuseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotraMuseTests.swift; sourceTree = "<group>"; };
+		520C0AA02922D693004EA851 /* NotraMuseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotraMuseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		520C0AA42922D693004EA851 /* NotraMuseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotraMuseUITests.swift; sourceTree = "<group>"; };
+		520C0AA62922D693004EA851 /* NotraMuseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotraMuseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		520C0AB42922DB2E004EA851 /* Orbitron-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Medium.ttf"; sourceTree = "<group>"; };
+		520C0AB82922DB46004EA851 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		524958A829235267003F8AC4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		524958AA2923531F003F8AC4 /* HomeSongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSongTableViewCell.swift; sourceTree = "<group>"; };
+		5273AD18292CB7DA00183301 /* FullAlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullAlbumViewController.swift; sourceTree = "<group>"; };
+		5273AD1F292CBC5500183301 /* FullAlbumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullAlbumTableViewCell.swift; sourceTree = "<group>"; };
+		5273AD21292CBC5900183301 /* SonginAlbumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonginAlbumTableViewCell.swift; sourceTree = "<group>"; };
+		5273AD26292D32CE00183301 /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		5273AD28292D335900183301 /* PlaylistsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsTableViewCell.swift; sourceTree = "<group>"; };
+		5273AD2A292D38DF00183301 /* SinglePlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlaylistViewController.swift; sourceTree = "<group>"; };
+		5273AD2C292D3A2100183301 /* SinglePlaylistInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlaylistInfoTableViewCell.swift; sourceTree = "<group>"; };
+		5273AD2E292D3A3400183301 /* SinglePlaylistSongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlaylistSongTableViewCell.swift; sourceTree = "<group>"; };
+		52897C132935A7FB008FFC26 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		52897C152935DA8A008FFC26 /* Test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Test.mp3; sourceTree = "<group>"; };
+		5EB8D92D7D63BEB169B4F501 /* Pods-NotraMuse-NotraMuseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotraMuse-NotraMuseUITests.debug.xcconfig"; path = "Target Support Files/Pods-NotraMuse-NotraMuseUITests/Pods-NotraMuse-NotraMuseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E5487C89400304DBC9AF1AA /* Pods_NotraMuse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotraMuse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8559857B7261EB75BE58213 /* Pods-NotraMuse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotraMuse.release.xcconfig"; path = "Target Support Files/Pods-NotraMuse/Pods-NotraMuse.release.xcconfig"; sourceTree = "<group>"; };
+		A9EE7F23292EBD9900BF9622 /* DeezerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerAPI.swift; sourceTree = "<group>"; };
+		A9EE7F25292EBDBA00BF9622 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Album.swift; path = ../Album.swift; sourceTree = "<group>"; };
+		A9EE7F27292EBDD800BF9622 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		A9EE7F29292EBDE900BF9622 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		A9EE7F2B292EBDFD00BF9622 /* ChartResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartResult.swift; sourceTree = "<group>"; };
+		C7665BAB292E70300064BF32 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		C7665BAD292E78CD0064BF32 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CE628C28B4B01447DE230F42 /* Pods-NotraMuse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotraMuse.debug.xcconfig"; path = "Target Support Files/Pods-NotraMuse/Pods-NotraMuse.debug.xcconfig"; sourceTree = "<group>"; };
+		D166A9E13E05CC887C9D6A13 /* Pods-NotraMuseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotraMuseTests.debug.xcconfig"; path = "Target Support Files/Pods-NotraMuseTests/Pods-NotraMuseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E253832D29299B6D007AC30B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E253832F2929A128007AC30B /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		ED119C4B44DD02E6E0D6C901 /* Pods_NotraMuse_NotraMuseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotraMuse_NotraMuseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED52763646B232EF26035D49 /* Pods_NotraMuseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotraMuseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520C0A7D2922D692004EA851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AD28B071CA0CFCD139E1BF /* Pods_NotraMuse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520C0A932922D693004EA851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E7F114BA62D7999DE4B3C7 /* Pods_NotraMuseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520C0A9D2922D693004EA851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92044B5ADD4E9B8B3AF7A977 /* Pods_NotraMuse_NotraMuseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A855B85D9BE50CFD862514A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE628C28B4B01447DE230F42 /* Pods-NotraMuse.debug.xcconfig */,
+				A8559857B7261EB75BE58213 /* Pods-NotraMuse.release.xcconfig */,
+				5EB8D92D7D63BEB169B4F501 /* Pods-NotraMuse-NotraMuseUITests.debug.xcconfig */,
+				22F671FD81E80434A3B27810 /* Pods-NotraMuse-NotraMuseUITests.release.xcconfig */,
+				D166A9E13E05CC887C9D6A13 /* Pods-NotraMuseTests.debug.xcconfig */,
+				1B3780E77FC3D86FF6BDAAB8 /* Pods-NotraMuseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3CBD9AB425D47D8320816871 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E5487C89400304DBC9AF1AA /* Pods_NotraMuse.framework */,
+				ED119C4B44DD02E6E0D6C901 /* Pods_NotraMuse_NotraMuseUITests.framework */,
+				ED52763646B232EF26035D49 /* Pods_NotraMuseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		520C0A772922D692004EA851 = {
+			isa = PBXGroup;
+			children = (
+				520C0A822922D692004EA851 /* NotraMuse */,
+				520C0A992922D693004EA851 /* NotraMuseTests */,
+				520C0AA32922D693004EA851 /* NotraMuseUITests */,
+				520C0A812922D692004EA851 /* Products */,
+				2A855B85D9BE50CFD862514A /* Pods */,
+				3CBD9AB425D47D8320816871 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		520C0A812922D692004EA851 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				520C0A802922D692004EA851 /* NotraMuse.app */,
+				520C0A962922D693004EA851 /* NotraMuseTests.xctest */,
+				520C0AA02922D693004EA851 /* NotraMuseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		520C0A822922D692004EA851 /* NotraMuse */ = {
+			isa = PBXGroup;
+			children = (
+				52897C152935DA8A008FFC26 /* Test.mp3 */,
+				A9EE7F22292EBD8B00BF9622 /* Deezer */,
+				520C0AB32922DAF2004EA851 /* Fonts */,
+				520C0A832922D692004EA851 /* AppDelegate.swift */,
+				520C0A852922D692004EA851 /* SceneDelegate.swift */,
+				520C0A872922D692004EA851 /* ViewController.swift */,
+				52897C132935A7FB008FFC26 /* PlayerViewController.swift */,
+				520C0A892922D692004EA851 /* Main.storyboard */,
+				520C0A8C2922D693004EA851 /* Assets.xcassets */,
+				520C0A8E2922D693004EA851 /* LaunchScreen.storyboard */,
+				520C0A912922D693004EA851 /* Info.plist */,
+				520C0AB82922DB46004EA851 /* LoginViewController.swift */,
+				524958A829235267003F8AC4 /* HomeViewController.swift */,
+				5273AD31292D45D900183301 /* PlaylistHomeScreen */,
+				5273AD30292D45A300183301 /* SinglePlaylistViewCells */,
+				5273AD23292D303200183301 /* DifferentInfoViews */,
+				524958AA2923531F003F8AC4 /* HomeSongTableViewCell.swift */,
+				5273AD24292D304800183301 /* FullAlbumView */,
+				5273AD25292D305E00183301 /* SearchFuctionality */,
+				C7665BAB292E70300064BF32 /* ItemCollectionViewCell.swift */,
+				C7665BAD292E78CD0064BF32 /* ProfileViewController.swift */,
+			);
+			path = NotraMuse;
+			sourceTree = "<group>";
+		};
+		520C0A992922D693004EA851 /* NotraMuseTests */ = {
+			isa = PBXGroup;
+			children = (
+				520C0A9A2922D693004EA851 /* NotraMuseTests.swift */,
+			);
+			path = NotraMuseTests;
+			sourceTree = "<group>";
+		};
+		520C0AA32922D693004EA851 /* NotraMuseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				520C0AA42922D693004EA851 /* NotraMuseUITests.swift */,
+				520C0AA62922D693004EA851 /* NotraMuseUITestsLaunchTests.swift */,
+			);
+			path = NotraMuseUITests;
+			sourceTree = "<group>";
+		};
+		520C0AB32922DAF2004EA851 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				520C0AB42922DB2E004EA851 /* Orbitron-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5273AD23292D303200183301 /* DifferentInfoViews */ = {
+			isa = PBXGroup;
+			children = (
+				5273AD18292CB7DA00183301 /* FullAlbumViewController.swift */,
+				03CB29A72923F2C30080FFF3 /* TrackViewController.swift */,
+				038386102923F8300017B5A5 /* ArtistViewController.swift */,
+			);
+			path = DifferentInfoViews;
+			sourceTree = "<group>";
+		};
+		5273AD24292D304800183301 /* FullAlbumView */ = {
+			isa = PBXGroup;
+			children = (
+				5273AD1F292CBC5500183301 /* FullAlbumTableViewCell.swift */,
+				5273AD21292CBC5900183301 /* SonginAlbumTableViewCell.swift */,
+			);
+			path = FullAlbumView;
+			sourceTree = "<group>";
+		};
+		5273AD25292D305E00183301 /* SearchFuctionality */ = {
+			isa = PBXGroup;
+			children = (
+				E253832D29299B6D007AC30B /* SearchViewController.swift */,
+				E253832F2929A128007AC30B /* SearchTableViewCell.swift */,
+			);
+			path = SearchFuctionality;
+			sourceTree = "<group>";
+		};
+		5273AD30292D45A300183301 /* SinglePlaylistViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				5273AD2E292D3A3400183301 /* SinglePlaylistSongTableViewCell.swift */,
+				5273AD2C292D3A2100183301 /* SinglePlaylistInfoTableViewCell.swift */,
+			);
+			path = SinglePlaylistViewCells;
+			sourceTree = "<group>";
+		};
+		5273AD31292D45D900183301 /* PlaylistHomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5273AD26292D32CE00183301 /* PlaylistViewController.swift */,
+				5273AD28292D335900183301 /* PlaylistsTableViewCell.swift */,
+				5273AD2A292D38DF00183301 /* SinglePlaylistViewController.swift */,
+			);
+			path = PlaylistHomeScreen;
+			sourceTree = "<group>";
+		};
+		A9EE7F22292EBD8B00BF9622 /* Deezer */ = {
+			isa = PBXGroup;
+			children = (
+				A9EE7F25292EBDBA00BF9622 /* Album.swift */,
+				A9EE7F23292EBD9900BF9622 /* DeezerAPI.swift */,
+				A9EE7F27292EBDD800BF9622 /* Artist.swift */,
+				A9EE7F29292EBDE900BF9622 /* Song.swift */,
+				A9EE7F2B292EBDFD00BF9622 /* ChartResult.swift */,
+			);
+			path = Deezer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520C0A7F2922D692004EA851 /* NotraMuse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520C0AAA2922D693004EA851 /* Build configuration list for PBXNativeTarget "NotraMuse" */;
+			buildPhases = (
+				1E265C258C6A61A2C9F0091D /* [CP] Check Pods Manifest.lock */,
+				520C0A7C2922D692004EA851 /* Sources */,
+				520C0A7D2922D692004EA851 /* Frameworks */,
+				520C0A7E2922D692004EA851 /* Resources */,
+				7B2E643C72CCDF23D6B84828 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotraMuse;
+			productName = NotraMuse;
+			productReference = 520C0A802922D692004EA851 /* NotraMuse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		520C0A952922D693004EA851 /* NotraMuseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520C0AAD2922D693004EA851 /* Build configuration list for PBXNativeTarget "NotraMuseTests" */;
+			buildPhases = (
+				9E190A27AAEEC6C0EB0CD6A7 /* [CP] Check Pods Manifest.lock */,
+				520C0A922922D693004EA851 /* Sources */,
+				520C0A932922D693004EA851 /* Frameworks */,
+				520C0A942922D693004EA851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520C0A982922D693004EA851 /* PBXTargetDependency */,
+			);
+			name = NotraMuseTests;
+			productName = NotraMuseTests;
+			productReference = 520C0A962922D693004EA851 /* NotraMuseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		520C0A9F2922D693004EA851 /* NotraMuseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520C0AB02922D693004EA851 /* Build configuration list for PBXNativeTarget "NotraMuseUITests" */;
+			buildPhases = (
+				BDD9294EBB099A9F5F60511C /* [CP] Check Pods Manifest.lock */,
+				520C0A9C2922D693004EA851 /* Sources */,
+				520C0A9D2922D693004EA851 /* Frameworks */,
+				520C0A9E2922D693004EA851 /* Resources */,
+				D432D3E524E24F499D24DB5E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520C0AA22922D693004EA851 /* PBXTargetDependency */,
+			);
+			name = NotraMuseUITests;
+			productName = NotraMuseUITests;
+			productReference = 520C0AA02922D693004EA851 /* NotraMuseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520C0A782922D692004EA851 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					520C0A7F2922D692004EA851 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					520C0A952922D693004EA851 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 520C0A7F2922D692004EA851;
+					};
+					520C0A9F2922D693004EA851 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 520C0A7F2922D692004EA851;
+					};
+				};
+			};
+			buildConfigurationList = 520C0A7B2922D692004EA851 /* Build configuration list for PBXProject "NotraMuse" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 520C0A772922D692004EA851;
+			productRefGroup = 520C0A812922D692004EA851 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				520C0A7F2922D692004EA851 /* NotraMuse */,
+				520C0A952922D693004EA851 /* NotraMuseTests */,
+				520C0A9F2922D693004EA851 /* NotraMuseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520C0A7E2922D692004EA851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520C0AB52922DB2E004EA851 /* Orbitron-Medium.ttf in Resources */,
+				52897C162935DA8B008FFC26 /* Test.mp3 in Resources */,
+				520C0A902922D693004EA851 /* LaunchScreen.storyboard in Resources */,
+				520C0A8D2922D693004EA851 /* Assets.xcassets in Resources */,
+				520C0A8B2922D692004EA851 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520C0A942922D693004EA851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520C0AB62922DB2E004EA851 /* Orbitron-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520C0A9E2922D693004EA851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520C0AB72922DB2E004EA851 /* Orbitron-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E265C258C6A61A2C9F0091D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotraMuse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B2E643C72CCDF23D6B84828 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NotraMuse/Pods-NotraMuse-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NotraMuse/Pods-NotraMuse-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NotraMuse/Pods-NotraMuse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E190A27AAEEC6C0EB0CD6A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotraMuseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD9294EBB099A9F5F60511C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotraMuse-NotraMuseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D432D3E524E24F499D24DB5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NotraMuse-NotraMuseUITests/Pods-NotraMuse-NotraMuseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NotraMuse-NotraMuseUITests/Pods-NotraMuse-NotraMuseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NotraMuse-NotraMuseUITests/Pods-NotraMuse-NotraMuseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520C0A7C2922D692004EA851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EE7F2C292EBDFD00BF9622 /* ChartResult.swift in Sources */,
+				E253832E29299B6D007AC30B /* SearchViewController.swift in Sources */,
+				03CB29A82923F2C30080FFF3 /* TrackViewController.swift in Sources */,
+				C7665BAE292E78CD0064BF32 /* ProfileViewController.swift in Sources */,
+				524958AB2923531F003F8AC4 /* HomeSongTableViewCell.swift in Sources */,
+				038386112923F8300017B5A5 /* ArtistViewController.swift in Sources */,
+				E25383302929A128007AC30B /* SearchTableViewCell.swift in Sources */,
+				52897C142935A7FB008FFC26 /* PlayerViewController.swift in Sources */,
+				A9EE7F24292EBD9900BF9622 /* DeezerAPI.swift in Sources */,
+				524958A929235267003F8AC4 /* HomeViewController.swift in Sources */,
+				520C0AB92922DB46004EA851 /* LoginViewController.swift in Sources */,
+				520C0A882922D692004EA851 /* ViewController.swift in Sources */,
+				5273AD20292CBC5500183301 /* FullAlbumTableViewCell.swift in Sources */,
+				520C0A842922D692004EA851 /* AppDelegate.swift in Sources */,
+				A9EE7F2A292EBDE900BF9622 /* Song.swift in Sources */,
+				520C0A862922D692004EA851 /* SceneDelegate.swift in Sources */,
+				A9EE7F28292EBDD800BF9622 /* Artist.swift in Sources */,
+				C7665BAC292E70300064BF32 /* ItemCollectionViewCell.swift in Sources */,
+				5273AD27292D32CE00183301 /* PlaylistViewController.swift in Sources */,
+				5273AD22292CBC5900183301 /* SonginAlbumTableViewCell.swift in Sources */,
+				5273AD19292CB7DA00183301 /* FullAlbumViewController.swift in Sources */,
+				5273AD2B292D38DF00183301 /* SinglePlaylistViewController.swift in Sources */,
+				5273AD2F292D3A3400183301 /* SinglePlaylistSongTableViewCell.swift in Sources */,
+				A9EE7F26292EBDBA00BF9622 /* Album.swift in Sources */,
+				5273AD29292D335900183301 /* PlaylistsTableViewCell.swift in Sources */,
+				5273AD2D292D3A2100183301 /* SinglePlaylistInfoTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520C0A922922D693004EA851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520C0A9B2922D693004EA851 /* NotraMuseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520C0A9C2922D693004EA851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520C0AA52922D693004EA851 /* NotraMuseUITests.swift in Sources */,
+				520C0AA72922D693004EA851 /* NotraMuseUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		520C0A982922D693004EA851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520C0A7F2922D692004EA851 /* NotraMuse */;
+			targetProxy = 520C0A972922D693004EA851 /* PBXContainerItemProxy */;
+		};
+		520C0AA22922D693004EA851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520C0A7F2922D692004EA851 /* NotraMuse */;
+			targetProxy = 520C0AA12922D693004EA851 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		520C0A892922D692004EA851 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520C0A8A2922D692004EA851 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		520C0A8E2922D693004EA851 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520C0A8F2922D693004EA851 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520C0AA82922D693004EA851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		520C0AA92922D693004EA851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		520C0AAB2922D693004EA851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE628C28B4B01447DE230F42 /* Pods-NotraMuse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X89MGYD6ML;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotraMuse/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fau.NotraMuse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		520C0AAC2922D693004EA851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8559857B7261EB75BE58213 /* Pods-NotraMuse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X89MGYD6ML;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotraMuse/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fau.NotraMuse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		520C0AAE2922D693004EA851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D166A9E13E05CC887C9D6A13 /* Pods-NotraMuseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X89MGYD6ML;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fau.NotraMuseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotraMuse.app/NotraMuse";
+			};
+			name = Debug;
+		};
+		520C0AAF2922D693004EA851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B3780E77FC3D86FF6BDAAB8 /* Pods-NotraMuseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X89MGYD6ML;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fau.NotraMuseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotraMuse.app/NotraMuse";
+			};
+			name = Release;
+		};
+		520C0AB12922D693004EA851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB8D92D7D63BEB169B4F501 /* Pods-NotraMuse-NotraMuseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X89MGYD6ML;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fau.NotraMuseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NotraMuse;
+			};
+			name = Debug;
+		};
+		520C0AB22922D693004EA851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F671FD81E80434A3B27810 /* Pods-NotraMuse-NotraMuseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X89MGYD6ML;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fau.NotraMuseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NotraMuse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520C0A7B2922D692004EA851 /* Build configuration list for PBXProject "NotraMuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520C0AA82922D693004EA851 /* Debug */,
+				520C0AA92922D693004EA851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520C0AAA2922D693004EA851 /* Build configuration list for PBXNativeTarget "NotraMuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520C0AAB2922D693004EA851 /* Debug */,
+				520C0AAC2922D693004EA851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520C0AAD2922D693004EA851 /* Build configuration list for PBXNativeTarget "NotraMuseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520C0AAE2922D693004EA851 /* Debug */,
+				520C0AAF2922D693004EA851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520C0AB02922D693004EA851 /* Build configuration list for PBXNativeTarget "NotraMuseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520C0AB12922D693004EA851 /* Debug */,
+				520C0AB22922D693004EA851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 520C0A782922D692004EA851 /* Project object */;
+}
